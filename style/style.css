@@ -1,0 +1,93 @@
+html {
+   height: 100%;
+   margin: 0;
+}
+
+body {
+   background: linear-gradient(#A4ECFA, #D6F6FD) fixed;
+   margin-right: 17px;
+
+}
+
+
+.introduction {
+    display: flex;
+    text-align: center;
+    align-items: center;
+ }
+
+ .menu {
+  margin: auto;
+  width: 22em;
+  margin-top: 10px;
+}
+
+ .photo-accueil {
+    width: 30%;
+    margin: 4em 2em 2em 2em;
+ }
+
+ .introduction {
+  width: 100%;
+ } 
+
+ .introduction h1 {
+    margin: 2.8em 3.2em 2em 3.2em;
+    font-size: 3em;
+ }
+
+ .introduction p {
+    margin: 1.5em 1.5em 2.5em 1.5em;
+    font-size: 1.4em;
+ }
+
+ header {
+   margin: auto;
+   text-align: center;
+   font-size: 2em;
+   width: 100%;
+ }
+
+  footer {
+   position: fixed;
+   margin: auto;
+   text-align: center;
+   font-size: 2em;
+   width: 100%;
+   bottom: 0em;
+   border-radius: 20px 20px 0px 0px;
+   box-shadow: 13px 13px 55px black;
+   background-color: rgba(76, 76, 184, 0.4);
+ }
+
+ .presentation {
+    margin: 0;
+ }
+
+ nav {
+   margin: 10px;
+   border: 1px solid black;
+   border-radius: 10px;
+   height: auto;
+   background-color:rgba(20, 163, 32, 0.281);
+
+ }
+
+ a {
+   text-decoration: none;
+   color: rgb(165, 126, 42);
+ }
+
+
+ nav:visited {
+   text-decoration: none;
+ }
+
+ a:hover {
+   text-decoration: underline;
+ }
+
+@media screen and (max-width:1204px) {
+   
+}
+

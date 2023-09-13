@@ -1,0 +1,140 @@
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.titre {
+    position: absolute;
+    margin-left: 1em;
+    border: 8px inset rgba(15, 155, 15, 0.575);
+}
+
+.menu {
+    margin: auto;
+    width: 22em;
+    margin-top: 2px;
+}
+
+.parcours {
+    margin-right: 0px;
+}
+
+.block {
+    display: flex;
+}
+
+article, .chapitres {
+    background: linear-gradient(135deg, rgba(163, 163, 163, 0.733), rgba(209, 209, 209, 0.733));
+    border: 3px solid black;
+    border-radius: 10px;
+    flex: 3;
+    margin: 1em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.conclusion {
+    text-align: center;
+}
+
+article h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0px;
+}
+
+article p {
+    padding: 1em;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+
+.parcours footer {
+    position: relative;
+}
+
+.chapitres { 
+    background: linear-gradient(90deg, rgba(163, 163, 163, 0.733), rgba(209, 209, 209, 0.733));
+    display: flex;
+    text-align: center;
+    font-size: 1.4em;
+    justify-content: space-around;
+    width: auto;
+    padding: 0.8em;
+}
+
+.chapitres a {
+    color: rgb(102, 102, 235);
+}
+
+.presentation-annexe {
+    text-align: center;
+    font-size: 1.4em;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(197, 110, 110, 0.623), rgba(184, 35, 35, 0.699));
+    width: auto;
+    height: auto;
+    margin: 1em;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        margin: 0px;
+    }
+
+    p, .presentation-annexe, .chapitres {
+        font-size: 1.5em;
+    }
+
+    .bio , .block{
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+
+    header {
+        flex-wrap: wrap;
+    }
+
+
+    .menu {
+        text-align: center;
+        margin: 0.7em;
+        width: 100%;
+    }
+
+    .titre {
+        position: relative;
+        height: auto;
+        margin: 0.5em 0 0.3em 1em;
+        font-size: 1em;
+    }
+
+    .chapitres {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 1em;
+    }
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1270px) {
+
+    .menu {
+        width: 40%;
+    }
+
+    .lien-telechargement {
+        width: 20%;
+    }
+    
+}
